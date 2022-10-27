@@ -126,12 +126,23 @@
 # # print(range(len(x)))
 # for i in range(len(x)):
 #     print("sandro")
-def digitize(n):
-    new_n = str(n)
-    new_nn = []
-    i = len(new_n)
-    while i > 0:
-        new_nn.append(int(new_n[i-1]))
-        i -= 1
-    print(new_nn)
-digitize(35231)
+# def digitize(n):
+#     new_n = str(n)
+#     new_nn = []
+#     i = len(new_n)
+#     while i > 0:
+#         new_nn.append(int(new_n[i-1]))
+#         i -= 1
+#     print(new_nn)
+# digitize(35231)
+
+# def abbrev_name(name):
+#     abbrev_name1 = ""
+#     i = 0
+#     while i < len(name):
+#         if name[i] == " ":
+#             abbrev_name1 = "{}.{}".format(name[0].capitalize(), name[i+1].capitalize())
+#         i += 1
+#     print(abbrev_name1)
+# abbrev_name("sandro janiashvili)
+    
