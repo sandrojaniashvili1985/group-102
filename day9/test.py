@@ -33,7 +33,7 @@
 #         i +=1
     
 #     print(new_str)
-# repeat_str(3,"aa ")
+# repeat_str(3,"aa1 ")
 
 # def remove_char(s):
 #     new_s = ""
@@ -49,7 +49,7 @@
 #     for i in numbers:
 #         sum += i ** 2
 #     print(sum)
-# square_sum([1, 2, -3])
+# square_sum([1, 2, -3, 4])
 
 #def summation(num):
 #     new_num = 0
@@ -145,4 +145,46 @@
 #         i += 1
 #     print(abbrev_name1)
 # abbrev_name("sandro janiashvili)
+
+
+# def past(h, m, s):
+#     ms = (h * 60 * 60 * 1000) + (m * 60 * 1000) + (s * 1000)
+#     print(ms) 
+# past(1, 0, 0)
+
+# def make_upper_case(s):
+#     new_s = ""
+#     for i in s:
+#         new_s += i.capitalize()
+#     print(new_s)
     
+# make_upper_case("dsandro")
+
+# def count_positives_sum_negatives(arr):
+#     count_positives = 0 
+#     sum_negatives = 0
+#     new_arr = []
+#     i = 0
+#     while i < len(arr):
+#         if arr[i] > 0:
+#             count_positives += 1
+#         elif arr[i] < 0:
+#             sum_negatives += arr[i]
+#         i += 1
+#     if arr == []:
+#         print(new_arr)
+#     else:
+#         new_arr.append(count_positives)
+#         new_arr.append(sum_negatives)
+#         print(new_arr)
+# count_positives_sum_negatives([0, 2, 3, 0, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14])
+# count_positives_sum_negatives([])
+
+def is_divisible(n,x,y):
+    #your code here
+    if n // x == 0 and n // y == 0:
+        print("True")
+    else:
+        print("False")
+is_divisible(3, 2, 2)
+is_divisible(12, 3, 4)
