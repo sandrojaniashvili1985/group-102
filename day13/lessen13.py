@@ -236,7 +236,11 @@
 # flip('R', [3, 2, 1, 2])
 
 
-def generate_range(min, max, step):
-    x = list(range(max+1)[min:max+1:step])
-    print(x)
-generate_range(1,10,2)
+# def generate_range(min, max):
+#     x = list(range(max+min)[min:max+1])
+#     print(x)
+# generate_range(-2,10)
+
+
+
+
